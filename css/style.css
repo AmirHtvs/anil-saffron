@@ -1402,7 +1402,7 @@ strong {
   FOOTER MENU               
 -----------------------------------------*/
 .footer-menu {
-  column-count: 2;
+  /* column-count: 2; */
   margin: 0;
   padding: 0;
 }
@@ -1489,6 +1489,24 @@ strong {
 
 .button--skoll:hover::before {
   transform: translate3d(0,100%,0);
+}
+
+.social-container {
+  width: 40%;
+  justify-content: space-between;
+}
+
+.social-container>span{
+  background-color: #000000;
+  border-radius: 100%;
+  color: #fe0000;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-container>span:hover {
+  color: #ffffff;
+  background-color: #C21807;
 }
 
 
