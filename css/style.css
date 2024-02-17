@@ -1737,4 +1737,8 @@ tr:nth-child(even) {
   .form-input {
     width: 103%;
   }
+
+  .cd-words-wrapper {
+    margin-right: 40px;
+  }
 }
